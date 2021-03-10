@@ -1,0 +1,50 @@
+// USER VARIABLES SECTION
+
+@accent: #7e2b00; // Accent Color
+@textcolor: #35455c;
+@white: #fff;
+@mainfamily: 'Cuprum', sans-serif;
+
+// GENERAL DOCUMENT STYLES
+
+.reset();
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.container {
+	.wrapper();
+}
+
+::placeholder {
+	color: #adb1b9;
+}
+
+::selection {
+	background-color: @accent;
+	color: @white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 18px;
+	// line-height: 32px;
+	min-width: 320px;
+	position: relative;
+	font-family: @mainfamily;
+	font-weight: 400;
+	color: @textcolor;
+	background-color: @white;
+}
+
+.main-content {
+	min-height: 100vh;
+}
+
+
