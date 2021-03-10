@@ -6,17 +6,17 @@ module.exports = {
         fields: '20px' // container
       },
       breakPoints: {
-        // xl: {
-        //   width: '1200px'
-        // },
+        xl: {
+          width: '1150px'
+        },
         lg: {
-         width: '992px'
+         width: '939px'
         },
         md: {
-         width: '768px'
+         width: '775px'
         },
         sm: {
-         width: '576px'
+         width: '521px'
         }
       },
      // detailedCalc: true

@@ -136,8 +136,8 @@ const copy = () => {
 	return gulp.src([
 		"src/fonts/**/*",
 		"src/files/**/*",
-		// "src/favicon.ico",
-		// "src/favicon.png",
+		"src/favicon.ico",
+		"src/favicon.png",
 		"src/*.php",
 	], {
 		base: 'src'
@@ -146,7 +146,7 @@ const copy = () => {
 		.pipe(sync.stream({
 			once: true
 		}));
-		
+
 }
 
 exports.copy = copy;
