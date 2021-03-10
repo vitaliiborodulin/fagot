@@ -2,6 +2,7 @@
 
 @accent: #7e2b00; // Accent Color
 @darkblue: #35455c;
+@grey: #f1f1f1;
 @white: #fff;
 @mainfamily: 'Cuprum', sans-serif;
 
@@ -28,11 +29,34 @@
 	color: @white;
 }
 
+form {
+	padding: 3em;
+	border-radius: 10px;
+	background-color: @white;
+	box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.29);
 
-input, textarea {
-	outline: none;
-	// &:focus:required:invalid { border-color: red }
-	// &:required:valid { border-color: green }
+	input, textarea {
+		width: 100%;
+		font-size: 18px;
+		margin-bottom: 13px;
+		border-radius: 3px;
+		padding: 12px 26px;
+		border: 1px solid #adb1b9;
+		outline: none;
+		// &:focus:required:invalid { border-color: red }
+		// &:required:valid { border-color: green }
+
+		&:focus {
+			border-color: @accent;
+		}
+	}
+
+	input[type=file] {
+		border: none;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 }
 
 html {
