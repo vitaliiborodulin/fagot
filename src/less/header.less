@@ -1,37 +1,42 @@
 .header {
+	position: fixed;
+	width: 100%;
 	background-color: @darkblue;
 	
 
 	&__content {
-		padding: 3em 0;
+		padding: 3rem 0;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		// height: 80px;
+		height: 80px;
 	}
-
+	
 	&__logo {
 		display: flex;
 		align-items: center;
 		color: @white;
 		// text-transform: uppercase;
+		overflow: hidden;
 		height: 41px;
 		
 		img {
 			width: 104px;
-			margin-right: 7em;
+			margin-right: 7rem;
+			.sm(margin-right, 0);
 		}
 
 		p {
 			font-size: 18px;
 			line-height: 13px;
+			.sm(display, none);
 		}
 
 	}
 
 	&__contacts {
 		a {
-			font-size: 2.2em;
+			font-size: 22px;
 			font-weight: 700;
 			color: @white;
 			text-decoration: none;
