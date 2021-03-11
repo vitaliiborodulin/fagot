@@ -1,3 +1,54 @@
 .footer {
+	color: @darkblue;
+	background-color: @grey;
 	
+	&__top {
+		padding: 3rem 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		// height: 80px;
+	}
+	
+	&__logo {
+		display: flex;
+		align-items: center;
+
+		// text-transform: uppercase;
+		overflow: hidden;
+		// height: 41px;
+		
+		img {
+			// width: 104px;
+			margin-right: 7rem;
+			.sm(margin-right, 0);
+		}
+
+		p {
+			font-size: 18px;
+			line-height: 13px;
+			.sm(display, none);
+		}
+
+	}
+
+	&__contacts {
+		a {
+			font-size: 22px;
+			font-weight: 700;
+			color: inherit;
+			text-decoration: none;
+		}
+	}
+
+	&__bottom {
+		padding-bottom: 3rem;
+
+		p {
+			max-width: 1050px;
+			margin: 0 auto;
+			font-size: 14px;
+			text-align: center;
+		}
+	}
 }

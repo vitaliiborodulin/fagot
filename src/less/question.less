@@ -1,0 +1,53 @@
+.question {
+	padding-top: 7rem;
+	padding-bottom: 7.5rem;
+
+	color: @white;
+	background-color: @darkblue;
+
+	h2 {
+		margin-bottom: 13px;
+		font-size: 36px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	form {
+		background-color: transparent;
+		box-shadow: none;
+		padding: 0;
+
+		display: flex;
+		.sm(flex-wrap, wrap);
+		justify-content: space-between;
+
+		textarea {
+			max-width: 870px;
+			min-height: 125px;
+			margin-bottom: 0;
+			flex-shrink: 1;
+			margin-right: 30px;
+			.sm-block({
+				flex-shrink: 0;
+				width: 100%;
+				margin-bottom: 2rem;
+			});
+		}
+
+		input {
+			margin-bottom: 0;
+			.sm(margin-bottom, 2rem);
+		}
+	}
+
+	&__form-wrapper {
+		width: 230px;
+		display: flex;
+		flex-shrink: 0;
+		flex-direction: column;
+		justify-content: space-between;
+		.sm-block({
+			width: 100%;
+		});
+	}
+}
