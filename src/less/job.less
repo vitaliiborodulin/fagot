@@ -1,4 +1,40 @@
 .job {
 	padding-top: 7.5rem;
-	background-color: @grey;;
+	padding-bottom: 9.5rem;
+	background-color: @grey;
+
+	&__list {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	&__item {
+		margin-bottom: 50px;
+		margin-left: 8px;
+		margin-right: 8px;
+		// width: 370px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		img {
+			margin-bottom: 11px;
+		}
+	}
+
+	&__title {
+		margin-bottom: 7px;
+		text-transform: uppercase;
+		font-size: 24px;
+		font-weight: 700;
+	}
+
+	&__descr {
+		max-width: 360px;
+		margin: 0 auto;
+		font-size: 18px;
+		line-height: 120%;
+		text-align: left;
+	}
 }
