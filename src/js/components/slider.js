@@ -1,7 +1,5 @@
 $('.portfolio__slider').each(function(){
 
-	
-
 	$(this).find('.portfolio__slider-main').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
