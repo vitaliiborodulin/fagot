@@ -26,6 +26,8 @@
 		"smart-grid": "^2.1.2"
 	},
 	"dependencies": {
-		"jquery.maskedinput": "^1.4.1"
+		"@fancyapps/fancybox": "^3.5.7",
+		"jquery.maskedinput": "^1.4.1",
+		"slick-carousel": "^1.8.1"
 	}
 }
