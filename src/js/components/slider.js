@@ -6,7 +6,7 @@ $('.portfolio__slider').each(function(){
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: false,
-		// lazyLoad: 'ondemand',
+		lazyLoad: 'ondemand',
 		infinite: false,
 		asNavFor: $(this).find('.portfolio__slider-nav')
 	});
@@ -19,7 +19,7 @@ $('.portfolio__slider').each(function(){
 		// centerMode: true,
 		infinite: false,
 		focusOnSelect: true,
-		// lazyLoad: 'ondemand'
+		lazyLoad: 'ondemand'
 	});
 
 });
