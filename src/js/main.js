@@ -9,6 +9,7 @@ $(function(){
 	//= components/map.js
 	//= components/popup.js
 	//= components/slider.js
+	//= components/upBtn.js
 
 });
 
