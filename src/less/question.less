@@ -21,9 +21,9 @@
 		.sm(flex-wrap, wrap);
 		justify-content: space-between;
 
-		textarea {
+		textarea, p {
 			max-width: 870px;
-			min-height: 125px;
+			height: 125px;
 			margin-bottom: 0;
 			flex-shrink: 1;
 			margin-right: 30px;
@@ -31,11 +31,20 @@
 				flex-shrink: 0;
 				width: 100%;
 				margin-bottom: 2rem;
+				margin-right: 0;
 			});
 		}
 
+		p {
+			width: 100%;
+		}
+
+		textarea {
+			width: 100%!important;
+		}
+
 		input {
-			margin-bottom: 0;
+			margin-bottom: 8px;
 			.sm(margin-bottom, 2rem);
 		}
 	}

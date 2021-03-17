@@ -11,5 +11,9 @@ $(function(){
 	//= components/slider.js
 	//= components/upBtn.js
 
+	document.addEventListener('wpcf7mailsent', function(event) {
+		location.href='/thanks'
+	})
+
 });
 

@@ -8,3 +8,7 @@ $('.btn-popup').on('click', function(){
 	$('.popup__aim').text(text);
 	$('#popup input[type=hidden]').val(text);
 });
+
+// $('#popup .wpcf7').addEventListener( 'wpcf7mailsent', function( event ) {
+// 	$.fn.fancybox.close();
+// });
